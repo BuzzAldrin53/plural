@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="es-MX">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>
+	ADEK | Fabricación y Afilado de Cuchillas y Sierras
+	</title>
+    
+    <meta name="title" content="ADEK | Fabricación y Afilado de Cuchillas y Sierras" /> 
+    <meta name="description" content="Fabricamos cuchillas con el acero adecuado para el espesor de cualquier metal a cortar en su compañía. Gran variedad de dimensiones, dureza, planicidad y rugosidad." />    
+
+    <link rel="shortcut icon" href="https://adek.com.mx/wp-content/uploads/2019/07/favicon-adek.png" />
+	<link rel="icon" href="https://adek.com.mx/wp-content/uploads/2019/07/favicon-adek-1.png" type="image/png"/>
+	<link rel="apple-touch-icon" href="https://adek.com.mx/wp-content/uploads/2019/07/favicon-adek-2.png" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Hind:wght@700&family=Roboto:wght@700&&display=swap" rel="import" async>
+
+
+    
+    <script defer src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+    <style>
+    body{
+    	margin: 0px;
+    	background: #fff;
+    }
+
+    .top_menu{
+    	width: 100%;
+    	margin: auto;
+    	height: 100px;
+    	background: #0A0A0A;
+    	background: #f00;
+
+    	font-family: 'Space Mono', monospace;
+    }
+    .top_menu_int{
+    	width: 50%;
+    	float: right;
+    }
+
+    .clr{
+    	clear: both;
+    }
+
+
+
+	</style>
+
+ </head>
+
+ <body>
+
+<div class="top_menu">
+
+	<div class="top_menu_int">
+
+		<ul>
+
+			<li>Bienvenido</li>
+			<li>MI CUENTA</li>
+			<LI>REGÍSTRATE</li>
+			<LI>LISTA DE DESEOS</li>
+			<LI>CARRITO</li>
+			<LI>CONTACTO</li>
+
+		</ul>
+
+	</div>
+
+
+	<div class="clr">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+ </body>
+
+
+ </html>

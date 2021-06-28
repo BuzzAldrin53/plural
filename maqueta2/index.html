@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="es-MX">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>Inicio - Plural</title>
+    
+
+	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Hind:wght@700&family=Roboto:wght@700&&display=swap" rel="import" async>
+
+
+    
+    <script defer src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet" defer>
+
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" defer>
+
+
+
+    <style>
+    body{
+    	margin: 0px;
+    	background: #fff;
+    }
+
+    .top_top{
+    	width: 100%;
+    	height: 3px;
+    	background: #0086CF;
+    }
+
+    .top_menu{
+    	width: 100%;
+    	margin: auto;
+    	height: 65px;
+    	background: #0A0A0A;
+    	/*background: #f00;*/
+
+    	font-family: 'Space Mono', monospace;
+    	font-weight: 700;
+    }
+    .top_menu_int{
+    	width: 50%;
+    	float: right;
+    }
+
+    ul{
+      list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  
+      font-size: 12px;
+
+      padding-left: 20px;
+    }
+
+
+    li {
+	  float: left;
+	  color: #fff;
+	  padding: 8px;
+	  cursor: pointer;
+	  padding-top: 20px;
+	}
+	li:hover{
+
+	}
+
+	li a {
+	  display: block;
+	  color: #030A27;
+	  text-align: center;
+	  /*padding: 13px;*/
+	  /*padding-top: 30px;*/
+	  
+	  text-decoration: none;
+	  /*height: 82px;*/
+	}
+
+	li a:hover {
+	  background-color: #fff;
+	  color: #bfe03c;
+	}
+
+
+
+	.top_header{
+		height: 200px;
+		background: #000;
+	}
+	.top_header_int{
+		width: 76%;
+		margin: auto;
+		/*background: #f00;*/
+	}
+
+	.top_header_logo{
+		width: 250px;
+		float: left;
+		padding-top: 10px;
+	}
+
+	.top_header_buscar{
+		
+		width: 450px;
+		float: left;
+		margin-top: 0px;
+		
+		padding-top: 80px;
+		padding-left: 30px;
+
+	}
+	.top_header_buscar_int{
+		height: 35px;
+		background: #fff;
+		padding: 2px;
+		padding-left: 19px;
+		padding-right: 13px;
+		border-radius: 20px;
+
+
+	}
+
+	.top_header_buscar_sep{
+		float: right;
+		height: 34px;
+		margin-left: 4px;
+		margin-right: 4px;
+		border-left: solid 1px #E5E5E5;
+	}
+
+	.top_header_buscar_input{
+		margin-top: 5px;
+		width: 180px;
+		background: #fff;
+		height: 20px;
+		float: left;
+	}
+
+	.top_header_buscar_btn{
+		margin-top: 5px;
+		background: #ccc;
+		height: 22px;
+		width: 22px;
+		float: right;
+		cursor: pointer;
+		background: url("buscar.png") no-repeat center;
+		margin-left: 20px;
+	}
+	.top_header_buscar_cats{
+		float: right;
+		border: none;
+		height: 30px;
+		width: 145px;
+		margin-right: 4px;
+		margin-left:  4px;
+		background: #fff;
+		color: #202020;
+	}
+
+
+	.top_header_buscar input{
+		border: none;
+	}
+
+	input:focus,
+	select:focus,
+	textarea:focus,
+	button:focus {
+	    outline: none;
+	}
+	[contenteditable="true"]:focus {
+    	outline: none;
+	}
+	*:focus {
+      outline: none;
+	}
+
+
+	.top_llamanos{
+		float: right;
+		
+		width: 350px;
+
+		font-family: 'Open Sans', sans-serif;
+	}
+	.top_llamanos_int{
+		float: left;
+		width: 190px;
+		margin-top: 80px;
+		margin-left: 40px;
+		/*background: #333;*/
+		color: #fff;
+
+	}
+	.top_llamanos_tit{
+		font-size: 10px;
+	}
+	.top_llamanos_tel{
+		font-size: 20px;
+	}
+
+
+
+
+	.top_carrito{
+		float: right;
+		width: 110px;
+		
+		/*background: #00f;*/
+
+		font-family: 'Open Sans', sans-serif;
+	}
+	.top_carrito_int{
+		
+		margin-top: 70px;
+		margin-left: 30px;
+		/*background: #f00;*/
+		padding: 3px;
+		color: #fff;
+
+		border-left: 1px solid #fff;
+	}
+	.top_carrito_int_left{
+		float: left;
+	}
+
+
+
+
+
+
+
+
+	.menu_cate{
+		width: 100%;
+		background: #fff;
+		font-family: 'Open Sans', sans-serif;
+		
+		padding-top: 10px;
+	}
+	.menu_cate_int{
+		width: 80%;
+		margin: auto;
+	}
+	.menu_cate_ele{
+		float: left;
+		padding: 3px;
+		padding-left: 12px;
+		padding-right: 12px;
+		margin-bottom: 10px;
+		color: #000;
+		cursor: pointer;
+		font-size: 13px;
+		font-weight: 600;
+	}
+	.menu_cate_ele:hover{
+		color: #036EC1;
+	}
+
+
+	.top_banners{
+		width: 100%
+	}
+
+
+
+	.recien_separador{
+		width: 100%;
+		margin-top: 70px;
+	}
+	.recien_separador_int{
+		width: 30%;
+		margin: auto;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		background: #fff;
+		text-align: center;
+	}
+
+
+	.recien_ele{
+		float: left;
+		margin: 10px;
+	}
+	.recien_ele:hover{
+		-webkit-box-shadow: 3px 3px 7px 0px rgba(71,70,71,0.3);
+        -moz-box-shadow: 3px 3px 7px 0px rgba(71,70,71,0.3);
+        box-shadow: 3px 3px 7px 0px rgba(71,70,71,0.3);
+	}
+
+	.recien_cats{
+		font-size: 10px;
+		color: #9A9A9A;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.recien_tit{
+		font-size: 15px;
+		color: #000;
+	}
+
+
+
+
+    .clr{
+    	clear: both;
+    }
+
+
+
+	</style>
+
+ </head>
+
+ <body>
+
+
+<div class="top_top">
+
+</div> 
+
+
+
+<div class="top_menu">
+
+	<div class="top_menu_int">
+
+		<ul>
+
+			<li>Bienvenido</li>
+			<li>MI CUENTA</li>
+			<LI>REGÍSTRATE</li>
+			<LI>LISTA DE DESEOS</li>
+			<LI>CARRITO</li>
+			<LI>CONTACTO</li>
+
+		</ul>
+
+	</div>
+
+
+	<div class="clr"></div>
+</div>
+
+
+
+
+<div class="top_header">
+
+	<div class="top_header_int">
+
+		<div class="top_header_logo">
+
+			<img src="header_logo.png" width="212" height="152" />
+
+		</div>
+
+		<div class="top_header_buscar">
+			<div class="top_header_buscar_int">
+				<form>
+
+
+
+					<input type="text" name="buscar" placeholder="Buscar..." class="top_header_buscar_input" />
+				
+
+
+				
+
+
+				<input type="submit" name="buscar" value=" " class="top_header_buscar_btn" />
+
+				<div class="top_header_buscar_sep"></div>
+
+
+				<select name="cars" id="cars" class="top_header_buscar_cats">
+					<option>Todas las categorias</option>
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="mercedes">Mercedes</option>
+				  <option value="audi">Audi</option>
+				</select>
+
+				<div class="top_header_buscar_sep"></div>
+
+				
+
+				</form>
+
+				<div class="clr"></div>
+			</div>
+		</div>
+
+
+
+		
+
+
+		<div class="top_llamanos">
+
+			<div class="top_llamanos_int">
+
+				<div class="top_llamanos_tit">Llámanos</div>
+
+				<div class="top_llamanos_tel">(+52) 55 7822 8273</div>
+
+			</div>
+
+
+			<div class="top_carrito">
+
+				<div class="top_carrito_int">
+
+					<img src="carrito.png" class="top_carrito_int_left" />
+
+
+					<div class="top_carrito_int_left" style="margin-top: 15px; margin-left: 10px;">
+						<img src="flecha.png" />
+					</div>
+
+					<div class="clr"></div>
+
+
+				</div>
+
+			</div>
+
+			<div class="clr"></div>
+
+		</div>
+
+
+		<div class="clr"></div>
+
+		
+
+	</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="menu_cate">
+
+	<div class="menu_cate_int">
+
+		<div class="menu_cate_ele" >COVID</div>
+		<div class="menu_cate_ele" >2021</div>
+		<div class="menu_cate_ele" >NAVIDAD</div>
+		<div class="menu_cate_ele" >NOVEDADES</div>
+		<div class="menu_cate_ele" >OFICINA Y NEGOCIOS</div>
+		<div class="menu_cate_ele" >HOGAR</div>
+		<div class="menu_cate_ele" >TAZAS Y BOTELLAS</div>
+		<div class="menu_cate_ele" >VIAJE</div>
+		<div class="menu_cate_ele" >MALETA</div>
+		<div class="menu_cate_ele" >BOLSAS</div>
+		<div class="menu_cate_ele" >PLAYA</div>
+		<div class="menu_cate_ele" >SUSTENTABLE</div>
+		<div class="menu_cate_ele" >KITS DE REGALO</div>
+
+		<div class="clr"></div>
+
+	</div>
+
+
+</div>
+
+
+
+<div class="top_banners">
+
+	<img src="banner1.webp" width="100%" />
+
+</div>
+
+
+
+
+<div class="recien_separador">
+
+	<div class="recien_separador_int">
+			LOS RECIÉN LLEGADOS
+	</div>
+
+</div>
+
+
+
+
+<div>
+
+	<div>
+
+		<div class="recien_ele">
+			<div><img src="boli1.jpg" /></div>
+			<div class="recien_cats">OFICINA Y NEGOCIOS, SUSTENTABLE</div>
+			<div class="recien_tit">Bolígrafo Dirrosoy</div>
+			<div>
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+			</div>
+		</div>
+
+
+		<div class="recien_ele">
+			<div><img src="boli1.jpg" /></div>
+			<div>OFICINA Y NEGOCIOS, SUSTENTABLE</div>
+			<div>Bolígrafo Dirrosoy</div>
+			<div>
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+			</div>
+		</div>
+
+
+		<div class="recien_ele">
+			<div><img src="boli1.jpg" /></div>
+			<div>OFICINA Y NEGOCIOS, SUSTENTABLE</div>
+			<div>Bolígrafo Dirrosoy</div>
+			<div>
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+				<img src="estrella.png" />
+			</div>
+		</div>
+
+
+		<div class="clr"></div>
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+ </body>
+
+
+ </html>
