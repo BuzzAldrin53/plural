@@ -58,13 +58,13 @@ xmltest			Imágenes originales, descargadas de la pagina del cliente.
 Front end version 2 (Version desktop)
 
 
-home_27.php				Home del sitio
-nosotros.php				Acerca de nosotros
-terminos.php				Terminos y condiciones
-videos.php				Listado de videos
-sdm_carrito_03.php			Carrito de compra
-sdm_categoria_productos_04.php		Listado de productos de categoría
-sdm_compra_datos_03.php			Proceso de compra Datos
+- home_27.php				Home del sitio
+- nosotros.php				Acerca de nosotros
+- terminos.php				Terminos y condiciones
+- videos.php				Listado de videos
+- sdm_carrito_03.php			Carrito de compra
+- sdm_categoria_productos_04.php		Listado de productos de categoría
+- sdm_compra_datos_03.php			Proceso de compra Datos
 sdm_compra_envio_03.php			Proceso de compra datos de envio
 sdm_compra_exitosa_03.php			Proceso de compra, compra exitosa
 sdm_compra_fallida_03.php			Proceso de compra, compra fallida
