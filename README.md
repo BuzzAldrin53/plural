@@ -2,7 +2,7 @@
 plural v2
 
 
-Contenido Folders
+<b>Contenido Folders</b>
 
 
 -images-			imágenes de prueba de construcción de maquetas
