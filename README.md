@@ -8,8 +8,11 @@ Contenido Folders
 -images-			imágenes de prueba de construcción de maquetas
 classes			ez_sql_core
 common_files		-no utilizados-
+
 config			-no utilizados-
+
 css			-no utilizados-
+
 graficos			carpeta de archivos gráficos de interface, deben ir todos en esta carpeta para activar cache por .htacces del folder
 
 icons			-no utilizados-
