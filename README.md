@@ -15,24 +15,42 @@ css			-no utilizados-
 
 graficos			carpeta de archivos gráficos de interface, deben ir todos en esta carpeta para activar cache por .htacces del folder
 
+
 icons			-no utilizados-
+
 includes			-no utilizados-
+
 kits-de-regalo		micrositio de prueba; propuesta para micrositio de kits de regalo.
+
 maqueta2			maqueta optimizada del sitio actual con maqueta personalizada.
+
 msg			clases de malling
+
 nuevo_registro		maqueta de mailling para nuevos registros
+
 Openpay			librerías de openplay
+
 openpay-php-master	librerías de openplay php master
+
 panel-de-control		panel de control del sitio, maqueta template, programación PHP
+
 session			archivos de sesión para usuarios.
+
 uploads			carpeta de archivos JPG y PNG subidos por el panel
+
 wp-admin			WORDPRESS
+
 wp-content		WORDPRESS
+
 wp-includes		WORDPRESS
+
 xmlfotos			Fotos optimizadas, basadas en las fotos originales descargadas desde la página del cliente.
-	fotos1		subcarpeta ejemplo; Se han dividido los archivos en varias carpetas
+
+fotos1		subcarpeta ejemplo; Se han dividido los archivos en varias carpetas
+
 
 xmltest			Imágenes originales, descargadas de la pagina del cliente.
+
 
 
 
